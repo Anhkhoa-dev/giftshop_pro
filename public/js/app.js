@@ -114,7 +114,7 @@ app.run(function($rootScope, $http){
         // Hàm lấy danh sánh hoa hồng sáp
         $rootScope.count_waxrose = 0;
         for(var i=0; i< $rootScope.max; i++){
-          if($rootScope.listProduct[i].category == "Waxrose"){
+          if($rootScope.listProduct[i].category == "Wasrose"){
             $rootScope.listCate_Wasrose.push($rootScope.listProduct[i]);
             $rootScope.count_waxrose++;
           }
